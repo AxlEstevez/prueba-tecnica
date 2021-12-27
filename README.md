@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Prueba tecnica: Desarrollador Front end
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Parte 1
 
-## Available Scripts
+Contesta correctamente las siguientes preguntas:
 
-In the project directory, you can run:
+1. ¿Qué es React js?
 
-### `npm start`
+    - Es una biblioteca para construir interfaces web de usuario.
+  
+2. ¿Qué es JSX?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    - Es una extensión de sintaxis de javascript recomendada para describir como sera una interfaz de usuario en React.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. ¿Qué son los "componentes"?
 
-### `npm test`
+    - Se podria decir que un componente es un objeto reutilizable que permite separar funciones (elementos de la interfaz de usuario) y trabajarlas por separado.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. ¿Para qué se utiliza "setState"?
 
-### `npm run build`
+    - Para actualizar el estado de un objeto (componente).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. ¿Qué hace "render"?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    - Retorna un componenete creado a la interfaz. En otras palabras, permite visualizar los componentes en el navegador web.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+6. ¿Qué es un "estado"?
 
-### `npm run eject`
+    - Se podria definir como la representación del componente durante su ciclo de vida. Se podría equiparar a los valores que una variable puede ir tomando durante la ejecución de un programa.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+7. ¿Qué son los 'props'?
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    - Se podría decir que es un tipo de entrada con el cual podemos iniciar los atributos de un componente, pero a diferiencia de los estado, estos son inmutables.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Parte 2
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Usando React, crea una una aplicación web que permita agregar, editar y eliminar empleados, la pantalla principal debe mostrar la información de los empleados registrados.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+El empleado debe tener la siguiente información: “Nombre” “Teléfono” “NSS” y “RFC”. Para desarrollar la aplicación apoyate de “states” para almacenar la información de los empleados.
